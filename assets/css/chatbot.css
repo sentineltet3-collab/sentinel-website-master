@@ -1,0 +1,98 @@
+/* Sentinel Chatbot Styles */
+.sentinel-chatbot-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 9999;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sentinel-chatbot-window {
+  position: fixed;
+  bottom: 100px;
+  right: 32px;
+  width: 340px;
+  max-width: 95vw;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  z-index: 9999;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+.sentinel-chatbot-header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.sentinel-chatbot-messages {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  font-size: 1rem;
+  background: #f7f7f7;
+}
+.sentinel-chatbot-options {
+  padding: 0.5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sentinel-chatbot-option {
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+.sentinel-chatbot-option:hover {
+  background: #c8e6c9;
+}
+.sentinel-chatbot-input {
+  padding: 0.5rem 1rem 1rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.sentinel-chatbot-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.sentinel-chatbot-input button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.sentinel-chatbot-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
